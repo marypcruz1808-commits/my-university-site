@@ -2,29 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
+    <title>Interesting Facts About Me</title>
     <style>
         body {
-            background-color: #f3e6ff; /* Light purple background */
+            background-color: #e6e0f8; /* Light purple background */
             font-family: Arial, sans-serif;
-            color: #4b0082; /* Dark purple text */
-            margin: 20px;
+            color: #5a189a; /* Purple text */
+            margin: 40px 60px;
+            max-width: 700px;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #7b2ff7; /* A brighter purple */
+            border-bottom: 3px solid #7b2ff7;
+            padding-bottom: 12px;
+            margin-bottom: 30px;
+        }
+        .fact {
+            margin-bottom: 25px;
+            font-size: 1.2rem;
+        }
+        button {
+            background-color: #5a189a;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 40px;
+        }
+        button:hover {
+            background-color: #3c096c;
         }
         nav a {
-            color: #6a0dad;
+            color: #5a189a;
             text-decoration: none;
             font-weight: bold;
-            margin-right: 10px;
+            margin-right: 15px;
+            font-size: 1rem;
         }
         nav a:hover {
             text-decoration: underline;
         }
-        h1 {
-            border-bottom: 2px solid #8a2be2;
-            padding-bottom: 10px;
-        }
-        ul {
-            list-style-type: square;
+        nav {
+            margin-bottom: 30px;
         }
     </style>
 </head>
@@ -34,12 +56,16 @@
         <a href="myUniversity.html">My University</a> |
         <a href="resume.html">My Resume</a>
     </nav>
-    <hr />
+
     <h1>Interesting Facts About Me</h1>
-    <ul>
-        <li>I love cats.</li>
-        <li>My favorite hobby is watching movies.</li>
-        <li>I enjoy taking photos.</li>
-    </ul>
+
+    <div class="fact">My name is Mariana.</div>
+    <div class="fact">My favorite colors are light blue and light purple.</div>
+    <div class="fact">I was born in Bogota, Colombia and lived there for ten years.</div>
+    <div class="fact">I love cats, but especially my cat Linda.</div>
+    <div class="fact">I love taking pictures of almost everything.</div>
+    <div class="fact">I love watching movies, and I'm a big fan of Marvel.</div>
+
+    <button onclick="window.location.href='index.html'">Back to Home</button>
 </body>
 </html>
